@@ -1,0 +1,1185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffe House</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.2.0-web/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/tintuccf.css">
+    <link rel="stylesheet" href="./CFHOUSE/assets/css/bootstrap_modal.css">
+    <link rel="stylesheet" href="./CFHOUSE/assets/css/giohang.css">
+    <link rel="stylesheet" href="./CFHOUSE/assets/css/modalCart.css">
+    <link rel="stylesheet" href="./CFHOUSE/assets/css/bootstrap/bootdtrap.min.css"> 
+</head>
+<body>
+    <header> 
+        <div class="topbar">
+            <div class="container">
+                <div class="topbar-row">
+                    <div class="topbar-left">
+                        <ul>
+                            <li> 
+                                <span class="welcome-text">Chào mừng bạn đến với Coffee House</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="topbar-right">
+                        <div class="f-right">
+                            <ul class="ul-account">
+                                <li>
+                                    <a href="./register.html" title="Đăng ký">Đăng ký</a>
+                                </li>
+                                <li class="line">/</li>
+                                <li>
+                                    <a href="./log-in.html" title="Đăng nhập">Đăng nhập</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mid-header">
+            <div class="container">
+                <div class="mid-header-row">
+                    <div class="header-nav">
+                        <ul class="nav-left">
+                            <li class="nav-item ">
+                                <a class="a-img active" href="./index.html">
+                                    Trang chủ
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="a-img " href="./GT.html">
+                                    Giới thiệu
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="a-img " >
+                                    Sản phẩm
+                                    <i class="fa-solid fa-caret-down"></i>
+                                </a>
+                                <ul class="subnav">
+                                    <li class="subnav-item"><a href="./CFHOUSE/caphethegioi.html">Cà phê thế giới</a></li>
+                                    <li class="subnav-item"><a href="./CFHOUSE/caphephaviet.html">Cà phê pha Việt</a></li>
+                                    <li class="subnav-item"><a href="./CFHOUSE/caphecamhung.html">Cà phê cảm hứng</a></li>
+                                    <li class="subnav-item"><a href="./CFHOUSE/douong.html">Đồ uống</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="logo_center">
+                            <li class="logo">
+                                <a href="/" class="logo-wrapper">
+                                    <img src="./assets/img/logo/logo-img.webp" alt="" class="logo-img">
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="nav-right">
+                            <li class="nav-item">
+                                <a class="a-img " href="./TD1.html">
+                                    Tuyển dụng
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="a-img " href="./tintuccf.html">
+                                    Tin tức
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="a-img " href="./CFLH/lienhe.html">
+                                    Liên hệ
+                                </a>
+                            </li>
+                        </ul>
+                        
+                        <div class="cart f-right">
+                            <div class="cart-contain">
+                                <a  style="text-decoration: none;">
+                                    <div class="visible-index">
+                                        <i class="fa-solid fa-bag-shopping active" id="btn-cart-icon" style="font-size: 25px;"></i>
+                                        <span class="count-item">0</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    
+                    </d>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="slider ">
+        <div class="home-slider">
+                <img src="./assets/img/slide/slider_2.webp" class="slider-img" alt="">
+        </div>
+    </div>
+    <div class="about">
+        <div class="container">
+            <div class="row-about">
+                <div class="text-about">
+                    <div class="module-left">
+                        <div class="heading">
+                            <h2 class="large_title">CHÚNG TÔI LÀ</h2>
+                            <div class="mini_title">Coffee House</div>
+                        </div>
+                        <div class="day_time">
+                            Thứ 2 đến Thứ 7
+                            <b>8:30am - 11:00pm</b>
+                            <span>|</span>
+                            Hotline:
+                            <a href="tel:19001234" >19001234</a>
+                        </div>
+                        <span>
+                            Chúng tôi đi khắp thế giới để tìm kiếm cà phê tuyệt vời. Trong quá trình đó, chúng tôi phát hiện ra những hạt đậu đặc biệt và hiếm đến nỗi chúng tôi có thể chờ đợi để mang chúng về.
+                        </span>
+                    </div>
+                </div>
+                <div class="img-about">
+                    <div class="module-right">
+                        <img src="./assets/img/about/bg_about.webp" class="about-img" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="menu_today">
+        <div class="container">
+            <div class="row-menu">
+                <div class="heading_menu">
+                    <h2 class="large_title">MENU HÔM NAY</h2>
+                    <div class="mini_title">Xem menu hôm nay</div>
+                </div>
+                <div class="tab_link_module">
+                    <div class="clearfix">
+                        <ul class="nav-tabs">
+                            <li><button id="1" class="active-tab">Cà phê thế giới</button></li>
+                            <li><button id="2">Cà phê pha Việt</button></li>
+                            <li><button id="3">Cà phê cảm hứng</button></li>
+                            <li><button id="4">Đồ uống</button></li>
+                        </ul>
+                    </div>
+                    <div class="tabs-content">
+                        <div id="1" class="tab-content1 tab">
+                            <div class="tab-content1-left">
+                                <ul class="list-products">
+                                    <li>
+                                        <div class="product-img">
+                                            <a href="">
+                                                <img src="./assets/img/menu/world-coffee/1.webp" alt="">
+                                            </a>
+                                        </div> 
+                                        <div class="product-info">
+                                            <div class="product-info-top">
+                                                <div class="name">
+                                                    <a href="">Cà Phê Trứng</a>
+                                                </div>
+                                                <div class="price">
+                                                    <span>50.000 ₫</span>
+                                                </div>
+                                            </div>
+                                            <div class="product-info-bottom">    
+                                                <div class="summary_grid">
+                                                    Cà phê Trứng được chọn lọc kỹ lưỡng
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </li>
+                                    <li>
+                                        <div class="product-img">
+                                            <a href="">
+                                                <img src="./assets/img/menu/world-coffee/2.webp" alt="">
+                                            </a>
+                                        </div> 
+                                        <div class="product-info">
+                                            <div class="product-info-top">
+                                                <div class="name">
+                                                    <a href="">Cà Phê Mocha</a>
+                                                </div>
+                                                <div class="price">
+                                                    <span>66.000 ₫</span>
+                                                </div>
+                                            </div>
+                                            <div class="product-info-bottom">    
+                                                <div class="summary_grid">
+                                                    Cà phê Mocha được chọn lọc kỹ lưỡng
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </li>
+                                    <li>
+                                        <div class="product-img">
+                                            <a href="">
+                                                <img src="./assets/img/menu/world-coffee/3.webp" alt="">
+                                            </a>
+                                        </div> 
+                                        <div class="product-info">
+                                            <div class="product-info-top">
+                                                <div class="name">
+                                                    <a href="">Cà Phê Cappuccino</a>
+                                                </div>
+                                                <div class="price">
+                                                    <span>300.000 ₫</span>
+                                                </div>
+                                            </div>
+                                            <div class="product-info-bottom">    
+                                                <div class="summary_grid">
+                                                    Cà phê Cappuccino được chọn lọc kỹ lưỡng
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </li>
+                                    <li>
+                                        <div class="product-img">
+                                            <a href="">
+                                                <img src="./assets/img/menu/world-coffee/4.webp" alt="">
+                                            </a>
+                                        </div> 
+                                        <div class="product-info">
+                                            <div class="product-info-top">
+                                                <div class="name">
+                                                    <a href="">Cà Phê Espresso</a>
+                                                </div>
+                                                <div class="price">
+                                                    <span>200.000 ₫</span>
+                                                </div>
+                                            </div>
+                                            <div class="product-info-bottom">    
+                                                <div class="summary_grid">
+                                                    Cà phê Espresso được chọn lọc kỹ lưỡng
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-content1-right">
+                                <ul class="list-products">
+                                    <li>
+                                        <div class="product-img">
+                                            <a href="">
+                                                <img src="./assets/img/menu/world-coffee/5.webp" alt="">
+                                            </a>
+                                        </div> 
+                                        <div class="product-info">
+                                            <div class="product-info-top">
+                                                <div class="name">
+                                                    <a href="">Cà Phê The Caipirinha</a>
+                                                </div>
+                                                <div class="price">
+                                                    <span>50.000 ₫</span>
+                                                </div>
+                                            </div>
+                                            <div class="product-info-bottom">    
+                                                <div class="summary_grid">
+                                                    Cà phê The Caipirinha được chọn lọc kỹ lưỡng
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </li>
+                                    <li>
+                                        <div class="product-img">
+                                            <a href="">
+                                                <img src="./assets/img/menu/world-coffee/6.webp" alt="">
+                                            </a>
+                                        </div> 
+                                        <div class="product-info">
+                                            <div class="product-info-top">
+                                                <div class="name">
+                                                    <a href="">Cà Phê Latte</a>
+                                                </div>
+                                                <div class="price">
+                                                    <span>66.000 ₫</span>
+                                                </div>
+                                            </div>
+                                            <div class="product-info-bottom">    
+                                                <div class="summary_grid">
+                                                    Cà phê Latte được chọn lọc kỹ lưỡng
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </li>
+                                    <li>
+                                        <div class="product-img">
+                                            <a href="">
+                                                <img src="./assets/img/menu/world-coffee/7.webp" alt="">
+                                            </a>
+                                        </div> 
+                                        <div class="product-info">
+                                            <div class="product-info-top">
+                                                <div class="name">
+                                                    <a href="">Cà Phê Espresso con panda</a>
+                                                </div>
+                                                <div class="price">
+                                                    <span>300.000 ₫</span>
+                                                </div>
+                                            </div>
+                                            <div class="product-info-bottom">    
+                                                <div class="summary_grid">
+                                                    Cà phê Espresso con panda được chọn lọc kỹ lưỡng
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </li>
+                                    <li>
+                                        <div class="product-img">
+                                            <a href="">
+                                                <img src="./assets/img/menu/world-coffee/8.webp" alt="">
+                                            </a>
+                                        </div> 
+                                        <div class="product-info">
+                                            <div class="product-info-top">
+                                                <div class="name">
+                                                    <a href="">Cà Phê Americano</a>
+                                                </div>
+                                                <div class="price">
+                                                    <span>200.000 ₫</span>
+                                                </div>
+                                            </div>
+                                            <div class="product-info-bottom">    
+                                                <div class="summary_grid">
+                                                    Cà phê Americano được chọn lọc kỹ lưỡng
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="2" class="tab-content2 dnone tab">
+                            <div class="tab-content1-left">
+                                <ul class="list-products">
+                                    <li>
+                                        <div class="product-img">
+                                            <a href="">
+                                                <img src="./assets/img/menu/viet-coffee/1.webp" alt="">
+                                            </a>
+                                        </div> 
+                                        <div class="product-info">
+                                            <div class="product-info-top">
+                                                <div class="name">
+                                                    <a href="">Cà Phê Trứng</a>
+                                                </div>
+                                                <div class="price">
+                                                    <span>50.000 ₫</span>
+                                                </div>
+                                            </div>
+                                            <div class="product-info-bottom">    
+                                                <div class="summary_grid">
+                                                    Cà phê Trứng được chọn lọc kỹ lưỡng
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </li>
+                                    <li>
+                                        <div class="product-img">
+                                            <a href="">
+                                                <img src="./assets/img/menu/viet-coffee/2.webp" alt="">
+                                            </a>
+                                        </div> 
+                                        <div class="product-info">
+                                            <div class="product-info-top">
+                                                <div class="name">
+                                                    <a href="">Cà Phê Matchapresso </a>
+                                                </div>
+                                                <div class="price">
+                                                    <span>100.000 ₫</span>
+                                                </div>
+                                            </div>
+                                            <div class="product-info-bottom">    
+                                                <div class="summary_grid">
+                                                    Cà phê Matchapresso được chọn lọc kỹ lưỡng
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </li>
+                                    <li>
+                                        <div class="product-img">
+                                            <a href="">
+                                                <img src="./assets/img/menu/viet-coffee/3.webp" alt="">
+                                            </a>
+                                        </div> 
+                                        <div class="product-info">
+                                            <div class="product-info-top">
+                                                <div class="name">
+                                                    <a href="">Cà Phê Mojto Presso</a>
+                                                </div>
+                                                <div class="price">
+                                                    <span>110.000 ₫</span>
+                                                </div>
+                                            </div>
+                                            <div class="product-info-bottom">    
+                                                <div class="summary_grid">
+                                                    Cà phê Mojto Presso được chọn lọc kỹ lưỡng
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </li>
+                                    <li>
+                                        <div class="product-img">
+                                            <a href="">
+                                                <img src="./assets/img/menu/viet-coffee/4.webp" alt="">
+                                            </a>
+                                        </div> 
+                                        <div class="product-info">
+                                            <div class="product-info-top">
+                                                <div class="name">
+                                                    <a href="">Bạc Sỉu</a>
+                                                </div>
+                                                <div class="price">
+                                                    <span>90.000 ₫</span>
+                                                </div>
+                                            </div>
+                                            <div class="product-info-bottom">    
+                                                <div class="summary_grid">
+                                                    Thành phần: 100% cafe hạt thượng hạng 
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-content1-right">
+                                <ul class="list-products">
+                                    <li>
+                                        <div class="product-img">
+                                            <a href="">
+                                                <img src="./assets/img/menu/viet-coffee/5.webp" alt="">
+                                            </a>
+                                        </div> 
+                                        <div class="product-info">
+                                            <div class="product-info-top">
+                                                <div class="name">
+                                                    <a href="">Cà Phê Cocoapresso </a>
+                                                </div>
+                                                <div class="price">
+                                                    <span>79.000 ₫</span>
+                                                </div>
+                                            </div>
+                                            <div class="product-info-bottom">    
+                                                <div class="summary_grid">
+                                                    Cà phê Cocoapresso được chọn lọc kỹ lưỡng
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </li>
+                                    <li>
+                                        <div class="product-img">
+                                            <a href="">
+                                                <img src="./assets/img/menu/viet-coffee/6.webp" alt="">
+                                            </a>
+                                        </div> 
+                                        <div class="product-info">
+                                            <div class="product-info-top">
+                                                <div class="name">
+                                                    <a href="">Cà Phê The Metro</a>
+                                                </div>
+                                                <div class="price">
+                                                    <span>69.000 ₫</span>
+                                                </div>
+                                            </div>
+                                            <div class="product-info-bottom">    
+                                                <div class="summary_grid">
+                                                    Cà phê The Metro được chọn lọc kỹ lưỡng
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </li>
+                                    <li>
+                                        <div class="product-img">
+                                            <a href="">
+                                                <img src="./assets/img/menu/viet-coffee/7.webp" alt="">
+                                            </a>
+                                        </div> 
+                                        <div class="product-info">
+                                            <div class="product-info-top">
+                                                <div class="name">
+                                                    <a href="">Cà Phê Caipirinha</a>
+                                                </div>
+                                                <div class="price">
+                                                    <span>50.000 ₫</span>
+                                                </div>
+                                            </div>
+                                            <div class="product-info-bottom">    
+                                                <div class="summary_grid">
+                                                    Cà phê Caipirinha được chọn lọc kỹ lưỡng
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </li>
+                                    <li>
+                                        <div class="product-img">
+                                            <a href="">
+                                                <img src="./assets/img/menu/viet-coffee/8.webp" alt="">
+                                            </a>
+                                        </div> 
+                                        <div class="product-info">
+                                            <div class="product-info-top">
+                                                <div class="name">
+                                                    <a href="">Cà Phê Đen</a>
+                                                </div>
+                                                <div class="price">
+                                                    <span>200.000 ₫</span>
+                                                </div>
+                                            </div>
+                                            <div class="product-info-bottom">    
+                                                <div class="summary_grid">
+                                                    Những hạt cà phê được chọn lọc kỹ lưỡng
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="3" class="tab-content3 dnone tab">
+                            <div class="tab-content1-left">
+                                <ul class="list-products">
+                                    <li>
+                                        <div class="product-img">
+                                            <a href="">
+                                                <img src="./assets/img/menu/inspiration-coffee/1.webp" alt="">
+                                            </a>
+                                        </div> 
+                                        <div class="product-info">
+                                            <div class="product-info-top">
+                                                <div class="name">
+                                                    <a href="">Cà Phê Trứng</a>
+                                                </div>
+                                                <div class="price">
+                                                    <span>50.000 ₫</span>
+                                                </div>
+                                            </div>
+                                            <div class="product-info-bottom">    
+                                                <div class="summary_grid">
+                                                    Cà phê Trứng được chọn lọc kỹ lưỡng
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </li>
+                                    <li>
+                                        <div class="product-img">
+                                            <a href="">
+                                                <img src="./assets/img/menu/inspiration-coffee/2.webp" alt="">
+                                            </a>
+                                        </div> 
+                                        <div class="product-info">
+                                            <div class="product-info-top">
+                                                <div class="name">
+                                                    <a href="">Cà Phê Rainbow </a>
+                                                </div>
+                                                <div class="price">
+                                                    <span>90.000 ₫</span>
+                                                </div>
+                                            </div>
+                                            <div class="product-info-bottom">    
+                                                <div class="summary_grid">
+                                                    Cà phê Rainbow được chọn lọc kỹ lưỡng
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </li>
+                                    <li>
+                                        <div class="product-img">
+                                            <a href="">
+                                                <img src="./assets/img/menu/inspiration-coffee/3.webp" alt="">
+                                            </a>
+                                        </div> 
+                                        <div class="product-info">
+                                            <div class="product-info-top">
+                                                <div class="name">
+                                                    <a href="">Cà Phê The Caipirinha</a>
+                                                </div>
+                                                <div class="price">
+                                                    <span>50.000 ₫</span>
+                                                </div>
+                                            </div>
+                                            <div class="product-info-bottom">    
+                                                <div class="summary_grid">
+                                                    Cà phê The Caipirinha được chọn lọc kỹ lưỡng
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </li>
+                                    <li>
+                                        <div class="product-img">
+                                            <a href="">
+                                                <img src="./assets/img/menu/inspiration-coffee/4.webp" alt="">
+                                            </a>
+                                        </div> 
+                                        <div class="product-info">
+                                            <div class="product-info-top">
+                                                <div class="name">
+                                                    <a href="">Cà Phê Mocha</a>
+                                                </div>
+                                                <div class="price">
+                                                    <span>66.000 ₫</span>
+                                                </div>
+                                            </div>
+                                            <div class="product-info-bottom">    
+                                                <div class="summary_grid">
+                                                    Cà phê Mocha được chọn lọc kỹ lưỡng
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-content1-right">
+                                <ul class="list-products">
+                                    <li>
+                                        <div class="product-img">
+                                            <a href="">
+                                                <img src="./assets/img/menu/inspiration-coffee/5.webp" alt="">
+                                            </a>
+                                        </div> 
+                                        <div class="product-info">
+                                            <div class="product-info-top">
+                                                <div class="name">
+                                                    <a href="">Cà Phê The Metro</a>
+                                                </div>
+                                                <div class="price">
+                                                    <span>69.000 ₫</span>
+                                                </div>
+                                            </div>
+                                            <div class="product-info-bottom">    
+                                                <div class="summary_grid">
+                                                    Cà phê The Metro được chọn lọc kỹ lưỡng
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </li>
+                                    <li>
+                                        <div class="product-img">
+                                            <a href="">
+                                                <img src="./assets/img/menu/inspiration-coffee/6.webp" alt="">
+                                            </a>
+                                        </div> 
+                                        <div class="product-info">
+                                            <div class="product-info-top">
+                                                <div class="name">
+                                                    <a href="">Cà Phê Mojto Presso</a>
+                                                </div>
+                                                <div class="price">
+                                                    <span>110.000 ₫</span>
+                                                </div>
+                                            </div>
+                                            <div class="product-info-bottom">    
+                                                <div class="summary_grid">
+                                                    Cà phê Mojto Presso được chọn lọc kỹ lưỡng
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </li>
+                                    <li>
+                                        <div class="product-img">
+                                            <a href="">
+                                                <img src="./assets/img/menu/inspiration-coffee/7.webp" alt="">
+                                            </a>
+                                        </div> 
+                                        <div class="product-info">
+                                            <div class="product-info-top">
+                                                <div class="name">
+                                                    <a href="">Cà Phê Caramel Macchiato</a>
+                                                </div>
+                                                <div class="price">
+                                                    <span>180.000 ₫</span>
+                                                </div>
+                                            </div>
+                                            <div class="product-info-bottom">    
+                                                <div class="summary_grid">
+                                                    Cà phê Caramel Macchiato được chọn lọc kỹ lưỡng
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </li>
+                                    <li>
+                                        <div class="product-img">
+                                            <a href="">
+                                                <img src="./assets/img/menu/inspiration-coffee/8.webp" alt="">
+                                            </a>
+                                        </div> 
+                                        <div class="product-info">
+                                            <div class="product-info-top">
+                                                <div class="name">
+                                                    <a href="">Cà Phê Latte </a>
+                                                </div>
+                                                <div class="price">
+                                                    <span>130.000 ₫</span>
+                                                </div>
+                                            </div>
+                                            <div class="product-info-bottom">    
+                                                <div class="summary_grid">
+                                                    Cà phê Latte được chọn lọc kỹ lưỡng
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="4" class="tab-content4 dnone tab">
+                            <div class="tab-content1-left">
+                                <ul class="list-products">
+                                    <li>
+                                        <div class="product-img">
+                                            <a href="">
+                                                <img src="./assets/img/menu/beverage/1.webp" alt="">
+                                            </a>
+                                        </div> 
+                                        <div class="product-info">
+                                            <div class="product-info-top">
+                                                <div class="name">
+                                                    <a href="">Cà Phê Trứng</a>
+                                                </div>
+                                                <div class="price">
+                                                    <span>50.000 ₫</span>
+                                                </div>
+                                            </div>
+                                            <div class="product-info-bottom">    
+                                                <div class="summary_grid">
+                                                    Cà phê Trứng được chọn lọc kỹ lưỡng
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </li>
+                                    <li>
+                                        <div class="product-img">
+                                            <a href="">
+                                                <img src="./assets/img/menu/beverage/2.webp" alt="">
+                                            </a>
+                                        </div> 
+                                        <div class="product-info">
+                                            <div class="product-info-top">
+                                                <div class="name">
+                                                    <a href="">Cà Phê Cocoapresso</a>
+                                                </div>
+                                                <div class="price">
+                                                    <span>79.000 ₫</span>
+                                                </div>
+                                            </div>
+                                            <div class="product-info-bottom">    
+                                                <div class="summary_grid">
+                                                    Cà phê Cocoapresso được chọn lọc kỹ lưỡng
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </li>
+                                    <li>
+                                        <div class="product-img">
+                                            <a href="">
+                                                <img src="./assets/img/menu/beverage/3.webp" alt="">
+                                            </a>
+                                        </div> 
+                                        <div class="product-info">
+                                            <div class="product-info-top">
+                                                <div class="name">
+                                                    <a href="">Cà Phê Caipirinha</a>
+                                                </div>
+                                                <div class="price">
+                                                    <span>50.000 ₫</span>
+                                                </div>
+                                            </div>
+                                            <div class="product-info-bottom">    
+                                                <div class="summary_grid">
+                                                    Cà phê Caipirinha được chọn lọc kỹ lưỡng
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </li>
+                                    <li>
+                                        <div class="product-img">
+                                            <a href="">
+                                                <img src="./assets/img/menu/beverage/4.webp" alt="">
+                                            </a>
+                                        </div> 
+                                        <div class="product-info">
+                                            <div class="product-info-top">
+                                                <div class="name">
+                                                    <a href="">Cà Phê Espresso con panda</a>
+                                                </div>
+                                                <div class="price">
+                                                    <span>120.000 ₫</span>
+                                                </div>
+                                            </div>
+                                            <div class="product-info-bottom">    
+                                                <div class="summary_grid">
+                                                    Cà phê Espresso con panda được chọn lọc kỹ lưỡng
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-content1-right">
+                                <ul class="list-products">
+                                    <li>
+                                        <div class="product-img">
+                                            <a href="">
+                                                <img src="./assets/img/menu/beverage/5.webp" alt="">
+                                            </a>
+                                        </div> 
+                                        <div class="product-info">
+                                            <div class="product-info-top">
+                                                <div class="name">
+                                                    <a href="">Cà Phê The Cococcino Latte</a>
+                                                </div>
+                                                <div class="price">
+                                                    <span>86.000 ₫</span>
+                                                </div>
+                                            </div>
+                                            <div class="product-info-bottom">    
+                                                <div class="summary_grid">
+                                                    Cà phê The Cococcino Latte được chọn lọc kỹ lưỡng
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </li>
+                                    <li>
+                                        <div class="product-img">
+                                            <a href="">
+                                                <img src="./assets/img/menu/beverage/6.webp" alt="">
+                                            </a>
+                                        </div> 
+                                        <div class="product-info">
+                                            <div class="product-info-top">
+                                                <div class="name">
+                                                    <a href="">Cà Phê Mojto Presso</a>
+                                                </div>
+                                                <div class="price">
+                                                    <span>110.000 ₫</span>
+                                                </div>
+                                            </div>
+                                            <div class="product-info-bottom">    
+                                                <div class="summary_grid">
+                                                    Cà phê Mojto Presso được chọn lọc kỹ lưỡng
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </li>
+                                    <li>
+                                        <div class="product-img">
+                                            <a href="">
+                                                <img src="./assets/img/menu/beverage/7.webp" alt="">
+                                            </a>
+                                        </div> 
+                                        <div class="product-info">
+                                            <div class="product-info-top">
+                                                <div class="name">
+                                                    <a href="">Cà Phê Cappuccino</a>
+                                                </div>
+                                                <div class="price">
+                                                    <span>300.000 ₫</span>
+                                                </div>
+                                            </div>
+                                            <div class="product-info-bottom">    
+                                                <div class="summary_grid">
+                                                    Cà phê Cappuccino được chọn lọc kỹ lưỡng
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </li>
+                                    <li>
+                                        <div class="product-img">
+                                            <a href="">
+                                                <img src="./assets/img/menu/beverage/8.webp" alt="">
+                                            </a>
+                                        </div> 
+                                        <div class="product-info">
+                                            <div class="product-info-top">
+                                                <div class="name">
+                                                    <a href="">Cà Phê sữa</a>
+                                                </div>
+                                                <div class="price">
+                                                    <span>100.000 ₫</span>
+                                                </div>
+                                            </div>
+                                            <div class="product-info-bottom">    
+                                                <div class="summary_grid">
+                                                    Cà phê sữa được chọn lọc kỹ lưỡng
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="more">
+                    <a class="more-btn" href="">Xem thêm</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gallery">
+        <div class="container">
+            <div class="title-gallery">
+                <h2>HÌNH ẢNH QUÁN CAFE</h2>
+            </div>
+            <div class="content-gallery">
+                <div class="content-gallery-left">
+                    <div class="gallery-img gallery-img-left">
+                        <img src="./assets/img/gallery/gallery_big.webp" alt="">
+                        <i src="./assets/img/gallery/gallery_big.webp" class="fa-solid fa-eye"></i>
+                    </div>
+                </div>
+                <div class="content-gallery-right">
+                    <div class="gallery-img gallery-img-right">
+                        <div class="gallery-item">
+                            <img src="./assets/img/gallery/gallery_1.webp" alt="">
+                            <i src="./assets/img/gallery/gallery_1.webp" class="fa-solid fa-eye"></i>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="./assets/img/gallery/gallery_2.webp" alt="">
+                            <i src="./assets/img/gallery/gallery_2.webp" class="fa-solid fa-eye"></i>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="./assets/img/gallery/gallery_3.webp" alt="">
+                            <i src="./assets/img/gallery/gallery_3.webp" class="fa-solid fa-eye"></i>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="./assets/img/gallery/gallery_4.webp" alt="">
+                            <i src="./assets/img/gallery/gallery_4.webp" class="fa-solid fa-eye"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="popup-image">
+            <span>&times</span>
+            <img src="./assets/img/gallery/gallery_1.webp" alt="">
+        </div>
+    </div>
+    <div class="operate-time">
+        <div class="container">
+            <div class="row-content">
+                <div class="time-content">
+                    <h2 class="time-content-heading">GIỜ MỞ CỬA</h2>
+                    <div class="content-hour">
+                        <p class="option-1">Thứ 2 - Thứ 6 hàng tuần</p>
+                        <span>7am - 11am</span>
+                        <br>
+                        <span>1pm - 10pm</span>
+                        <p class="option-2">Thứ 7, Chủ nhật hàng tuần</p>
+                        <span>8am - 11am</span>
+                        <br>
+                        <span>11am - 9pm</span>
+                        <div class="content-hour-line"></div>
+                        <div class="call">
+                            Số Điện Thoại
+                            <br>
+                            <a href="19001234">19001234</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-img">
+                    <img src="./assets/img/oparate-time/banner-hours-book.webp" alt="">
+                    <button class="btn-order"><a href="./reservation.html">Đặt bàn ngay</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="news">
+        <div class="container">
+            <div class="heading-news">
+                <p class="title-news">
+                  <a href="./tintuccf.html" > TIN TỨC</a>
+                </p>
+            </div>
+            <div class="content-news">
+                <div class="content-news-left">
+                    <div class="img-news">
+                        <img src="./assets/img/news/1.webp" alt="">
+                    </div>
+                    <div class="content-blog">
+                        <div class="short-time">
+                            <i class="fa-regular fa-calendar-days"></i>
+                            <p>19/03/2019</p>
+                        </div>
+                        <h3>
+                            <a href="">Bloomberg: Xuất khẩu cà phê lớn thứ hai Việt Nam</a>
+                        </h3>
+                        <div class="summary-news">
+                            <p>
+                                Tình trạng biến đổi khí hậu đang trở thành vấn đề nan giải, ngày càng ảnh hưởng rõ nét và sâu sắc
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-news-right f-right">
+                    <div class="img-news">
+                        <img src="./assets/img/news/2.webp" alt="">
+                    </div>
+                    <div class="content-blog">
+                        <div class="short-time">
+                            <i class="fa-regular fa-calendar-days"></i>
+                            <p>19/03/2019</p>
+                        </div>
+                        <h3>
+                            <a href="">Giá cà phê arabica năm 2019 dự kiến tăng tại Brazil thấp</a>
+                        </h3>
+                        <div class="summary-news">
+                            <p>
+                                Các chuyên gia dự đoán thâm hụt toàn cầu một triệu bao loại 60 kg trong niên vụ 2019 - 2020, tro...
+                            </p> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="section-service-end">
+                <div class="service-item">
+                    <div class="service-img">
+                        <img src="./assets/img/news/service/service_1.png" alt="">
+                    </div>
+                    <span>    
+                        Coffe chất lượng hàng đầu của Châu Âu
+                    </span>
+                </div>
+                <div class="service-item">
+                    <div class="service-img">
+                        <img src="./assets/img/news/service/service_2.png" alt="">
+                    </div>
+                    <span>     
+                        Coffe chất lượng hàng đầu của Châu Âu
+                    </span>
+                </div>
+                <div class="service-item">
+                    <div class="service-img">
+                        <img src="./assets/img/news/service/service_3.png" alt="">
+                    </div>
+                    <span>   
+                        Coffe chất lượng hàng đầu của Châu Âu
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="box-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.669726937899!2d106.68006961471826!3d10.759917092332728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f1b7c3ed289%3A0xa06651894598e488!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBTw6BpIEfDsm4!5e0!3m2!1svi!2s!4v1665803105945!5m2!1svi!2s" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="footer-contact">
+
+                <div class="infor">
+                    <ul class="contact">
+                        <span>CHÚNG TÔI LÀ COFFEE HOUSE</span>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <a>Trụ sở chính: 273 An Dương Vương - Phường 3 – Quận 5 - Thành phố Hồ Chí Minh</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            <a href="tel:19001234">19001234</a>
+                        </li>
+                        <li>
+                            <i class="fa-regular fa-envelope"></i>
+                            <a href="mailto:coffeehousesp@cfh.vn">coffeehousesp@cfh.vn</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="follow-option">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="customer-care">
+                    <ul class="list-menu">
+                        <span>CHĂM SÓC KHÁCH HÀNG</span>
+                        <li><a href="./index.html">Trang chủ</a></li>
+                        <li><a href="./GT.html">Giới thiệu</a></li>
+                        <li><a href="./CFHOUSE/caphethegioi.html">Sản phẩm</a></li>
+                        <li><a href="./TD1.html">Tuyển dụng</a></li>
+                        <li><a href="./News/tintuccf.html">Tin tức</a></li>
+                        <li><a href="./CFLH/lienhe.html">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="contact-us">
+                    <ul class="title-menu">
+                        <span>LIÊN HỆ VỚI CHÚNG TÔI</span>
+                        <li><a href="./index.html">Trang chủ</a></li>
+                        <li><a href="./GT.html">Giới thiệu</a></li>
+                        <li><a href="./CFHOUSE/caphethegioi.html">Sản phẩm</a></li>
+                        <li><a href="./TD1.html">Tuyển dụng</a></li>
+                        <li><a href="./News/tintuccf.html">Tin tức</a></li>
+                        <li><a href="./CFLH/lienhe.html">Liên hệ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal gio hang -->
+ <div class="modal fade" id="modal-cart" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+            <br>
+            <h4 id="name-cart">GIỎ HÀNG</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">  
+            <span aria-hidden="true">&times;</span>    
+        </div>
+        <div class="modal-body">
+            <table class="cart-table">
+                <thead>
+                    <tr class="tr-cart">
+                        <th class="th-cart" style="width: 5%"></th>
+                        <th class="th-cart" style="width: 50%">Sản Phẩm</th>
+                        <th class="th-cart" style="width: 20%">Giá Tiền</th>
+                        <th class="th-cart" style="width: 20%">Số Lượng</th>
+                        <th class="th-cart" style="width: 5%"></th>
+                    </tr>
+                </thead>
+                <tbody id="tbody-cart" >
+                   
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td class="td-cart float-right" colspan="5" id="total-cart"> </td>
+                  
+                    </tr>
+                </tfoot>
+                
+            </table>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn  button bg-yellow btn-lg btn-pay-bill" style="background-color: #e7b45a; border-radius: 39px !important; color:#ffffff">THANH TOÁN </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./assets/js/slider.js"></script>
+  <script src="./assets/js/menu.js"></script>
+  <script src="./assets/js/popup.js"></script>
+</body>
+</html>
+<script src="./CFHOUSE/assets/js/jquery/jquery.min.js"></script>
+<script src="./CFHOUSE/assets/js/bootstrap/bootstrap.min.js"></script>
+<script src="./CFHOUSE/assets/js/swal/successNotification.js"></script>
+<script src="./CFHOUSE/assets/js/main_product.js"></script>

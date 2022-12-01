@@ -1,0 +1,95 @@
+/* Gio hang */
+
+
+.captionName
+{
+    font-family:'Times New Roman', Times, serif;
+    color:#e7b45a;
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+.imageCoffee
+{
+    border-radius: 100%;
+    width: 120px;
+    height: 100;
+    padding: 10%;
+}
+.imageCoffee:hover
+{
+    color:#e7b45a
+}
+.nameCoffee
+{
+    
+    font-size: 180%;
+    padding-right: 60px;
+    padding-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100%;
+}
+.emptyCell{
+    width: 13%;
+}
+.nameCoffee:hover
+{
+    color: #e7b45a;
+}
+
+.priceCoffee
+{
+    width:100px;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-right: 10%;
+    text-align: center;
+}
+.tablesanpham
+{
+   padding: 10%;
+   margin-left:auto;
+   margin-right:auto;
+   margin-bottom: 3em;
+ 
+}
+.imageNumber1
+{
+   
+    width: 100px;
+    height:100;
+}
+.col-sm-4
+{
+    font-size:14px;
+    font-weight:bolder;
+}
+.lineProduct
+{
+    
+    height: 1px;
+    border-width:0;
+    background-color: gray;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.button
+{
+    border-radius: 39px !important;
+   
+}
+.bg-yellow
+{
+   background-color:  #e7b45a !important; 
+   border-color:#e7b45a !important;
+}
+
+.input-qty
+{
+    width: 30px;
+    text-align: center;
+}
+.plus-minus-qty
+{
+    width: 30px;
+}

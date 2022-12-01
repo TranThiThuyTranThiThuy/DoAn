@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffe House</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/fonts/fontawesome-free-6.2.0-web/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/sanpham.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap_modal.css">
+    <link rel="stylesheet" href="./assets/css/giohang.css">
+    <link rel="stylesheet" href="./assets/css/modalCart.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap/bootdtrap.min.css"> 
+    <link rel="stylesheet" href="../CFLH/assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/scroll/aos.css">
+    <link rel="stylesheet" href="./assets/css/huongdanmua.css">
+</head>
+<body>
+    <header> 
+        <br>
+        <br>
+        <br>
+        <div class="mid-header">
+            <div class="container">
+                <div class="mid-header-row">
+                    <div class="header-nav">
+                        <ul class="nav-left">
+                            <li class="nav-item ">
+                                <a class="a-img " href="../index.html">
+                                    Trang chủ
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="a-img " href="../GT.html">
+                                    Giới thiệu
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="a-img active" href="">
+                                    Sản phẩm
+                                    <i class="fa-solid fa-caret-down"></i>
+                                </a>
+                                <ul class="subnav">
+                                    <li class="subnav-item"><a href="./caphethegioi.html">Cà phê thế giới</a></li>
+                                    <li class="subnav-item"><a href="./caphephaviet.html">Cà phê pha Việt</a></li>
+                                    <li class="subnav-item"><a href="./caphecamhung.html">Cà phê cảm hứng</a></li>
+                                    <li class="subnav-item"><a href="./douong.html">Đồ uống</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="logo_center">
+                            <li class="logo">
+                                <a href="/" class="logo-wrapper">
+                                    <img src="/assets/img/logo/logo-img.webp" alt="" class="logo-img">
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="nav-right">
+                            <li class="nav-item">
+                                <a class="a-img " href="../TD1.html">
+                                    Tuyển dụng
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="a-img " href="../News/tintuccf.html">
+                                    Tin tức
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="a-img " href="../CFLH/lienhe.html">
+                                    Liên hệ
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="cart f-right">
+                            <div class="cart-contain">
+                                <a  style="text-decoration: none;">
+                                    <div class="visible-index">
+                                        <i class="fa-solid fa-bag-shopping active"  id="btn-cart-icon" style="font-size: 25px;"></i>
+                                        <span class="count-item">0</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- product -->
+    <div>
+        <table class="tablesanpham" >
+            <caption style="text-align:center" class="captionName"><h1>CÀ PHÊ CẢM HỨNG</h1></caption>
+            <tr>
+                <td><img src="./assets/img/cftrung.jpg" class="imageCoffee show-detail" data='{ "ID": 1 , "CategoryID": 3 }'></td>
+                <td class="nameCoffee show-detail" data='{ "ID": 1 , "CategoryID": 3 }'>Cà phê trứng</td>
+                <td class="priceCoffee">50.000đ</td>
+                <td class ="emptyCell"></td>
+                <td><img src="./assets/img/metro.jpg" class="imageCoffee show-detail" data='{ "ID": 12 , "CategoryID": 3 }'/></td>
+                <td class="nameCoffee show-detail" data='{ "ID": 12 , "CategoryID": 3 }'>Cà phê The Metro</td>
+                <td class="priceCoffee">130.000đ</td>
+            </tr>
+            <tr>
+                <td><img src="./assets/img/rainbow.jpg" class="imageCoffee show-detail" data='{ "ID": 15 , "CategoryID": 3 }'/></td>
+                <td class="nameCoffee show-detail" data='{ "ID": 15 , "CategoryID": 3 }' >Cà phê The Rainbow</td>
+                <td class="priceCoffee">90.000đ</td>
+                <td class ="emptyCell"></td>
+                <td><img src="./assets/img/mojitoespresso.jpg" class="imageCoffee show-detail" data='{ "ID": 14 , "CategoryID": 3 }' /></td>
+                <td class="nameCoffee show-detail" data='{ "ID": 14 , "CategoryID": 3 }' >Cà phê Mojto Presso</td>
+                <td class="priceCoffee">130.000đ</td>
+            </tr>
+            <tr>
+                <td><img src="./assets/img/capuchino.jpg"class="imageCoffee show-detail" data='{ "ID": 5 , "CategoryID": 3 }' /></td>
+                <td class="nameCoffee show-detail" data='{ "ID": 5 , "CategoryID": 3 }' >Cà phê Capuchino</td>
+                <td class="priceCoffee">300.000đ</td>
+                <td class ="emptyCell"></td>
+                <td><img src="./assets/img/espressopanda.jpg" class="imageCoffee show-detail" data='{ "ID": 6 , "CategoryID": 3 }' /></td>
+                <td class="nameCoffee show-detail" data='{ "ID": 6 , "CategoryID": 3 }'>Cà phê Espresso con Panda</td>
+                <td class="priceCoffee">120.000đ</td>
+            </tr>
+            <tr>
+                <td><img src="./assets/img/espresso.jpg" class="imageCoffee show-detail" data='{ "ID": 7 , "CategoryID": 3 }' /></td>
+                <td class="nameCoffee show-detail" data='{ "ID": 7 , "CategoryID": 3 }'>Cà phê Espresso</td>
+                <td class="priceCoffee">200.000đ</td>
+                <td class ="emptyCell"></td>
+                <td><img src="./assets/img/americano.jpg" class="imageCoffee show-detail" data='{ "ID": 8 , "CategoryID": 3 }' /></td>
+                <td class="nameCoffee show-detail" data='{ "ID": 8 , "CategoryID": 3 }'>Cà phê Americano</td>
+                <td class="priceCoffee">150.000đ</td>
+            </tr>
+            <tr>
+                <td><img src="./assets/img/cfsua.jpg" class="imageCoffee show-detail" data='{ "ID": 9 , "CategoryID": 3 }'/></td>
+                <td class="nameCoffee show-detail" data='{ "ID": 9 , "CategoryID": 3 }' >Cà phê sữa</td>
+                <td class="priceCoffee">100.000đ</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <hr class="lineProduct">
+    </div>
+   
+   
+ <!-- Modal gio hang -->
+ <div class="modal fade" id="modal-cart" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+            <br>
+            <h4 id="name-cart">GIỎ HÀNG</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">  
+            <span aria-hidden="true">&times;</span>    
+        </div>
+        <div class="modal-body">
+            <table class="cart-table">
+                <thead>
+                    <tr class="tr-cart">
+                        <th class="th-cart" style="width: 5%"></th>
+                        <th class="th-cart" style="width: 50%">Sản Phẩm</th>
+                        <th class="th-cart" style="width: 20%">Giá Tiền</th>
+                        <th class="th-cart" style="width: 20%">Số Lượng</th>
+                        <th class="th-cart" style="width: 5%"></th>
+                    </tr>
+                </thead>
+                <tbody id="tbody-cart" >
+                   
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td class="td-cart float-right" colspan="5" id="total-cart"> </td>
+                  
+                    </tr>
+                </tfoot>
+                
+            </table>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn button bg-yellow btn-lg btn-pay-bill">THANH TOÁN </button>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <!-- Modal chitiet -->
+  <div class="modal fade" id="modal-detail" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+        </div>
+        <div class="modal-body">
+            <div class="row">
+                <div class="col-sm-4">
+                    <img id="img-detail" width="100%" />
+                </div>
+                <div class="col-sm-8">
+                    <h2 align="center" id="name-detail"></h2><br>
+                    <p id="content-detail"></p>
+                    <br>
+                    <div align="center">
+                        <button type="button"class="plus-minus-qty">-</button>
+                        <input aria-label="quantity" class="input-qty"  type="text" value="1" align="center" readonly="readonly" >
+                        <button type="button"class="plus-minus-qty">+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary button bg-yellow btn-lg" id="btn-add-cart">THÊM VÀO GIỎ </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Bootstrap instructor-->
+  <section class="blog_w3ls py-lg-5" id="posts">
+    <div class="container py-sm-5 py-4">
+        <div class="title-section pb-4">
+            <h3 class="main-title-w3_pvt">Hướng dẫn mua hàng</h3>
+            <br>
+            <span class="title-line"></span>
+            
+        </div>
+        <div class="row space-sec ">
+
+
+            <div class="col-lg-4 col-md-6 mt-sm-0 mt-4 " data-aos="zoom-out" >
+                <div class="card border-0 ">
+                    <div class="card-header p-0 position-relative">
+                            <img class="card-img-bottom " src="./assets/img/dangnhap.png" alt="Card image cap">
+                    </div>
+                    <div class="card-body border-0 ">
+                        <p class="instructor">
+                            Trước khi bắt đầu mua hàng, bạn hãy tạo cho mình một tài khoản để dễ dàng mua hàng hơn ở mục Đăng Ký, nếu bạn đã có tài khoản rồi thì bắt đầu sang bước 2 ngay thôi!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-sm-0 mt-4" data-aos="zoom-out">
+                <div class="card border-0 ">
+                    <div class="card-header p-0 position-relative">
+                        <img class="card-img-bottom " src="./assets/img/choncf.jpg" alt="Card image cap">
+                    </div>
+                    <div class="card-body border-0">
+                        <p class="instructor">
+                            Trong mục sản phẩm, bạn nãy chọn cho mình những thức uống ưa thích, chọn số lượng muốn mua bằng cách bấm vào hình hoặc tên sản phẩm và click vào nút "Thêm vào giỏ hàng"!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-sm-0 mt-4" data-aos="zoom-out">
+                <div class="card border-0 ">
+                    <div class="card-header p-0 position-relative">
+                            <img class="card-img-bottom " src="./assets/img/thanhtoan.jpg" alt="Card image cap">
+                    </div>
+                    <div class="card-body border-0">
+                        <p class="instructor">
+                           Cuối cùng ở góc phải màn hình, bạn click vào biểu tượng giỏ hàng và bấm thanh toán, vậy là bạn đã hoàn thành việc mua hàng. Chúc quý khách mua hàng thành công!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<br>
+      <!--footer-->
+      <footer class="footer">
+        <div class="top-footer top_footer">
+            <div class="section_service_end">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <table>
+                                <tr>
+                                    <td><img src="./assets/img/number1.jpg" class="imageNumber1"/></td>
+                                    <td>Chất lượng hàng đầu về phục vụ</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="col-sm-4">
+                            <table>
+                                <tr>
+                                    <td><img src="./assets/img/xenumber1.jpg" class="imageNumber1"/></td>
+                                    <td>Chất lượng hàng đầu về vận chuyển</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="col-sm-4">
+                            <table>
+                                <tr>
+                                    <td><img src="./assets/img/cfnumber1.jpg" class="imageNumber1"/></td>
+                                    <td>Chất lượng hàng đầu về nguyên liệu</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mid-footer mid_footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <ul class="contact">
+                            <li>
+                                <p class="summary_footer">
+                                    Chúng tôi là Coffee House									
+                                </p>
+                            </li>
+                            <li class="li_footer_h">
+                                <div class="icon_base">
+                                    <address>
+                                        <img class="mg_r_2" src="../CFLH/assets/img/mapicon.png"  alt="Coffee House">
+                                    </address>
+                                </div>
+                                <span class="txt_content_child">
+                                    Trụ sở chính:
+                                    273 An Dương Vương - Phường 3 – Quận 5 - Thành phố Hồ Chí Minh
+                                </span>
+                            </li>
+                            <li class="li_footer_h">
+                                <div class="icon_base">
+                                    <img class="mg_r_2" src="../CFLH/assets/img/phoneicon.png" alt="Coffee House">
+                                </div>
+                                <a href="tel:19001234">19001234</a>   
+                            </li>
+                            <li class="li_footer_h">
+                                <div class="icon_base">
+                                    <img class="mg_r_2" src="../CFLH/assets/img/emailicon.png" alt="Coffee House">
+                                </div>
+                                <a href="mailto:coffeehousesp@cfh.vn">coffeehousesp@cfh.vn</a>
+                            </li>
+                        </ul>
+    
+                        <div class="fot_menu_copyright social_footer">
+                            <ul class="follow_option">	
+    
+                                    <a href="#" title="Theo dõi Facebook Coffee House"> <img src="../CFLH/assets/img/facebook.png" alt="facebook"></a>
+                               
+                                    <a href="#" title="Theo dõi Twitter Coffee House"><img src="../CFLH/assets/img/twitter.png" alt="twitter"></a>
+                                
+                                    <a href="#" title="Theo dõi Instagram Coffee House"><img src="../CFLH/assets/img/instagram.png" alt="instagram"></a>
+                               
+                                    <a href="#" title="Theo dõi Youtube Coffee House"><img src="../CFLH/assets/img/youtube.png" alt="youtube"></a>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col_nth " >
+                        <div class="widget-ft first">
+                            <h4 class="title-menu">
+                                <a role="button" class="collapsed" data-toggle="collapse" aria-expanded="false" data-target="#collapseListMenu01" aria-controls="collapseListMenu01">
+                                    Chăm sóc khách hàng </i>
+                                </a>
+                            </h4>
+                            <div class="collapse" id="collapseListMenu01">
+                                <ul class="list-menu">
+                                                                    
+                                    <li class="li_menu"><a href="../index.html">Trang chủ</a></li>
+                                                                    
+                                    <li class="li_menu"><a href="../GT.html">Giới thiệu</a></li>
+                                                                    
+                                    <li class="li_menu"><a href="./caphethegioi.html">Sản phẩm</a></li>
+                                                                    
+                                    <li class="li_menu"><a href="../TD1.html">Tuyển dụng</a></li>
+                                                                    
+                                    <li class="li_menu"><a href="../News/tintuccf.html">Tin tức</a></li>
+                                                                    
+                                    <li class="li_menu"><a href="../CFLH/lienhe.html">Liên hệ</a></li>
+                                                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col_nth">
+                        <div class="widget-ft">
+                            <h4 class="title-menu">
+                                <a role="button" class="collapsed" data-toggle="collapse" aria-expanded="false" data-target="#collapseListMenu02" aria-controls="collapseListMenu02">
+                                 Liên hệ với chúng tôi </i>
+                                </a>
+                            </h4>
+                            <div class="collapse time_work" id="collapseListMenu02">
+                                <ul class="list-menu">
+                                                                    
+                                    <li class="li_menu"><a href="../index.html">Trang chủ</a></li>
+                                                                    
+                                    <li class="li_menu"><a href="../GT.html">Giới thiệu</a></li>
+                                                                    
+                                    <li class="li_menu"><a href="./caphethegioi.html">Sản phẩm</a></li>
+                                                                    
+                                    <li class="li_menu"><a href="../TD1.html">Tuyển dụng</a></li>
+                                                                    
+                                    <li class="li_menu"><a href="../News/tintuccf.html">Tin tức</a></li>
+                                                                    
+                                    <li class="li_menu"><a href="../CFLH/lienhe.html">Liên hệ</a></li>
+                                                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-footer-bottom copyright col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="inner">                                              
+                <a href="#" id="back-to-top" class="backtop show" title="Lên đầu trang">Lên đầu trang <img src="../CFLH/assets/img/chevron.png"></a>                                            
+            </div>
+        </div>
+    </footer> 
+</body>
+</html>
+<script src="/assets/js/slider.js"></script>
+<script src="./assets/js/jquery/jquery.min.js"></script>
+<script src="./assets/js/bootstrap/bootstrap.min.js"></script>
+<script src="./assets/js/main_product.js"></script>
+<script src="./assets/js/swal/successNotification.js"></script>
+<script src="./assets/js/scroll/aos.js"></script>
+<script src="./assets/js/huongdanmua.js"></script>
